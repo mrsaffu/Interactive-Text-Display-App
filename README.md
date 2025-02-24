@@ -4,6 +4,7 @@ The Interactive Text Display Application is a powerful and user-friendly tool de
 # 🌟 Interactive Text Display Application
 
 A dynamic web application for real-time text customization and animation.
+* application link : https://mrsaffu.github.io/Interactive-Text-Display-App/
 # 🚀 Features
 * ✅ Real-time text input and updates
 * ✅ Multiple text animations (e.g., fade-in, bounce)
