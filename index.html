@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Text Display</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sec1">
+        <div class="cont1">
+            <div class="box1">
+                <textarea name="msg" id="text" placeholder="Write your text hear....."></textarea>
+                <button class="button" onclick="addText()">Add</button>
+            </div>
+        </div>
+
+        <!-- --------------------------------- -->
+        <div class="cont2">
+            <div class="card1">
+                <div class="firstbox">
+                    <input type="number" name="" id="font-size" min="12" max="40" value="16" onchange="fontSize()">
+                </div>
+                <h1 class="br"></h1>
+                <div class="secondbox">
+                    <button class="button1 " id="bold" onclick="fontBold()" type="button"><i
+                            class="fa-solid fa-b"></i></button>
+                    <button class="button1" type="button"  id="italic" onclick="fontItalic()"><i class="fa-solid fa-italic"></i></button>
+                    <button class="button1" type="button" id="textUnderLine" onclick="fontUnderLine()"><i class="fa-solid fa-underline" ></i></button>
+                </div>
+                <h1 class="br"></h1>
+
+
+                <div class="thirdbox">
+                    <button class="button1" type="button" id="left" onclick="textAlignLeft()"><i class="fa-solid fa-align-left"></i></button>
+                    <button class="button1" type="button" id="center" onclick="textAlignCenter()"><i class="fa-solid fa-align-center"></i> </button>
+                    <button class="button1" type="button" id="right" onclick="textAlignRight()"><i class="fa-solid fa-align-right"></i> </button>
+                </div>
+                <h1 class="br"></h1>
+
+
+                <div class="fourthBox">
+                    <input type="color"  id="bgColor" value="#ffffff" onchange="changeBgColor()">
+
+                    <input type="color" id="color" onchange="changeFontColor()">
+
+                    
+                </div>
+            </div>
+
+
+
+            <div class="card2">
+                <!-- <input  type="" class="input1" > -->
+                <!-- <textarea  id="input1" placeholder="This is a readonly Box only"> </textarea> -->
+                <textarea  id="input1" placeholder="This is a read-only Box" readonly></textarea>
+
+
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
