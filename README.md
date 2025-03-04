@@ -13,7 +13,7 @@ A dynamic web application for real-time text customization and animation.
 
 # 📌 Preview
 
-![alt](./img1.png)
+ <img src="./img1.png" alt="image">
 
 # 📥 Installation
 1️⃣ Clone the repository
