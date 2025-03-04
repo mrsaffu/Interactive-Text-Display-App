@@ -13,18 +13,14 @@ A dynamic web application for real-time text customization and animation.
 
 # 📌 Preview
 
- <img src="./img1.png" alt="image">
+<img src="./readmeImages/img1.png" alt="images" width="500">
 
 # 📥 Installation
 1️⃣ Clone the repository
-* bash
-* Copy
-* Edit
+
 git clone https://github.com/your-username/interactive-text-display.git
 2️⃣ Navigate to the project folder
-* bash
-* Copy
-* Edit
+
 cd interactive-text-display
 3️⃣ Open the application
 Simply open index.html in your browser to start using the app.
