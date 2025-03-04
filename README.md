@@ -18,7 +18,7 @@ A dynamic web application for real-time text customization and animation.
 # 📥 Installation
 * 1️⃣ Clone the repository
 
-git clone https://github.com/your-username/interactive-text-display.git
+git clone :  https://github.com/mrsaffu/Interactive-Text-Display-App.git
 * 2️⃣ Navigate to the project folder
 
 cd interactive-text-display
